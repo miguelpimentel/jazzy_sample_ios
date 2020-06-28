@@ -8,9 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+/// Main view controller
+public class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
@@ -22,9 +23,23 @@ class ViewController: UIViewController {
         1.Values are **Int**
         - parameters:
         - values: [Int]
+        - Returns: Sum of all values
     */
     public func getTotal(values: [Int]) -> Int {
         return values.reduce(0,{ $0 + $1 })
+    }
+
+    /**
+        Get first value
+        ## Important Notes ##
+        1.Values are **Int**
+        - parameters:
+        - values: [Int]
+        - Return: nil if array is empty otherwise the first value
+
+    */
+    public func getFirst(values: [Int]) -> Int? {
+        return values.first
     }
 }
 
