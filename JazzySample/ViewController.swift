@@ -60,6 +60,14 @@ public class ViewController: UIViewController {
         print("Hello Horld, Miguel")
     }
 
+    /**
+        This function prints hello Caio
+        ## Important Notes ##
+        1. Name is a **String** parameter.
+    */
+    public func helloCaio() {
+        print("Hello Horld, Caio!")
+    }
     
 }
 
