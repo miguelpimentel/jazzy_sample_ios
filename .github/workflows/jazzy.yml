@@ -1,8 +1,5 @@
 name: Jazzy
-on:
-  push:
-    branches:
-      - master
+on: [push]
       
 jobs:
   deploy_docs:
