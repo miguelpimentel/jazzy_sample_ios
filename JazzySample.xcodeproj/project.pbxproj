@@ -13,6 +13,7 @@
 		AD4D11AD24A8B80E00DE9D4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4D11AB24A8B80E00DE9D4A /* Main.storyboard */; };
 		AD4D11AF24A8B80F00DE9D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4D11AE24A8B80F00DE9D4A /* Assets.xcassets */; };
 		AD4D11B224A8B80F00DE9D4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4D11B024A8B80F00DE9D4A /* LaunchScreen.storyboard */; };
+		AD4D11BA24A8C75700DE9D4A /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4D11B924A8C75700DE9D4A /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AD4D11AE24A8B80F00DE9D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD4D11B124A8B80F00DE9D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD4D11B324A8B80F00DE9D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD4D11B924A8C75700DE9D4A /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				AD4D11AE24A8B80F00DE9D4A /* Assets.xcassets */,
 				AD4D11B024A8B80F00DE9D4A /* LaunchScreen.storyboard */,
 				AD4D11B324A8B80F00DE9D4A /* Info.plist */,
+				AD4D11B924A8C75700DE9D4A /* CustomView.swift */,
 			);
 			path = JazzySample;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD4D11AA24A8B80E00DE9D4A /* ViewController.swift in Sources */,
+				AD4D11BA24A8C75700DE9D4A /* CustomView.swift in Sources */,
 				AD4D11A624A8B80E00DE9D4A /* AppDelegate.swift in Sources */,
 				AD4D11A824A8B80E00DE9D4A /* SceneDelegate.swift in Sources */,
 			);
