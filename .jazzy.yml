@@ -1,0 +1,15 @@
+
+output: Jazzy_Docs
+clean: true
+xcodebuild_arguments:
+ - -project
+ - JazzySample.xcodeproj
+ - -scheme
+ - JazzySample
+ - CODE_SIGNING_ALLOWED = NO
+author: Miguel Pimentel
+module: JazzySample
+module_version: 0.1
+copyright: Copyright © 2020 Miguel Pimentel. All rights reserved.
+min_acl: internal
+theme: apple
