@@ -41,5 +41,23 @@ public class ViewController: UIViewController {
     public func getFirst(values: [Int]) -> Int? {
         return values.first
     }
+
+
+    /// Ayx
+    /// - Parameters:
+    ///   - a: Int
+    ///   - b: Double
+    func aux(a: Int, b: Double) {
+
+    }
+
+    /**
+        This function prints hello miguel
+        ## Important Notes ##
+        1. Name is a **String** parameter.
+    */
+    public func helloMiguel() {
+        print("Hello Horld, Miguel")
+    }
 }
 
